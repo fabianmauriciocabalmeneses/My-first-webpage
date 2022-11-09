@@ -1,0 +1,94 @@
+
+.banner{
+    height:700px;
+    background-image: linear-gradient(rgba(5,7,12,0.65), rgba(5,7,12,0.45)),url("/src/img/banner1.jpeg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:solid 2px  rgb(255, 255, 255, 0.30);
+
+    
+}
+
+.link{
+    width: 200px;
+    height:50px;
+    color: white;
+    font-size: 30px;
+    /* background-color: rgb(255, 216,54); */
+    background-color: rgb(5,15,26);
+    padding: 10px;
+    border-radius: 70px 0;
+    text-align: center;
+    
+    
+}
+
+.link:hover{
+    color: rgb(255,216,54);
+    width: 210px;
+    height:60px;
+    
+}
+
+/* star aside */
+
+.information{
+    display: flex;
+}
+
+.card{
+   width: 400px;
+   height: 100%;
+   text-align: center;
+   margin: 20px 25px;   
+}
+
+.subtittle{
+    color: rgb(255,216,54);
+    margin: 5px;
+}
+
+.tittle{
+    color: rgb(221,222,223);
+    margin: 5px;
+}
+
+.descrptions{
+    color: rgb(53,69,89);
+    margin: 5px;
+}
+
+/* End aside */
+
+/* Start summary */
+
+.summary{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;     
+}
+.abstrac{
+    width: 600px;
+    height: 600px;
+    margin: 30px;     
+}
+
+.Video-lt{
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+}
+
+.descriptions{
+    color: rgb(221,222,223);
+    margin: 12px;
+    text-align: justify;
+}
+.video{
+    color: rgb(221,222,223);
+    margin:12px;
+    text-align: center;
+}
